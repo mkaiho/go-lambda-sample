@@ -13,3 +13,22 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# env files
+.envrc
+
+# SSH Keys
+.ssh/
+
+# MySQL data
+docker/mysql/data/
+
+# localstack data
+docker/localstack/data/
+docker/localstack/.localstack
+docker/localstack/server.test.pem
+docker/localstack/server.test.pem.crt
+docker/localstack/server.test.pem.key
+
+# aws-cli
+.aws/
